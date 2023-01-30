@@ -1,0 +1,113 @@
+/* ------General Setting------ */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(30, 38%, 92%);
+  font-family: "Fraunces", "Montserrat", sans-serif;
+  color: hsl(228, 12%, 48%);
+}
+
+.container {
+  max-width: 600px;
+  height: 430px;
+  background-color: hsl(0, 0%, 100%);
+  margin: 80px auto;
+  border: none;
+  border-radius: 10px;
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+/* ------Image-Section------- */
+
+.img-1 {
+  width: 300px;
+  height: 430px;
+}
+
+.img-2 {
+  display: none;
+}
+
+/* ------Text-SEction------ */
+
+.text {
+  padding: 0 30px;
+}
+
+.perfume {
+  font-size: 14px;
+  font-family: "Montserrat";
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  margin: 20px 0;
+}
+
+.heading {
+  font-size: 2.25em;
+  color: hsl(212, 21%, 14%);
+  font-family: "Fraunces";
+  font-weight: 700;
+  margin-bottom: 20px;
+  line-height: 1;
+}
+
+.details {
+  font-family: "Montserrat";
+  font-size: 14px;
+  line-height: 1.5;
+  margin-bottom: 24px;
+}
+
+/* ------Price Section------ */
+
+.price-section {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.offer {
+  font-family: "Fraunces";
+  font-size: 32px;
+  font-weight: 700;
+  color: hsl(158, 36%, 37%);
+}
+
+.price {
+  font-size: smaller;
+  text-decoration: line-through;
+  font-family: "Montserrat";
+}
+
+/* ------Button Section------ */
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  color: hsl(0, 0%, 100%);
+  font-weight: 700;
+  font-family: "Montserrat";
+  padding: 14px 65px;
+  background-color: hsl(158, 36%, 37%);
+  border-radius: 10px;
+  border: none;
+}
+
+.icon {
+  font-size: 20px;
+}
+
+.btn:hover {
+  cursor: pointer;
+  background-color: #1a3e2e;
+}

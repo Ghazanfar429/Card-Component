@@ -1,0 +1,49 @@
+@media (max-width: 600px) {
+  .container {
+    max-width: 295px;
+    height: auto;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    /* border: solid 10px red; */
+    gap: 0;
+  }
+
+  /*-- Image Section --  */
+
+  .img-1 {
+    display: none;
+  }
+
+  .img-2 {
+    width: 295px;
+    height: 295px;
+    display: inline;
+  }
+
+  /*-- Text Section --  */
+
+  .text {
+    padding: 0 20px;
+  }
+
+  .perfume {
+    margin: 15px 0;
+  }
+
+  .heading {
+    font-family: "Fraunces";
+    font-size: 1.6em;
+    font-weight: 700;
+    margin-bottom: 15px;
+  }
+
+  .details {
+    font-size: 12px;
+    margin-bottom: 15px;
+  }
+
+  .btn {
+    margin: 15px auto;
+  }
+}
